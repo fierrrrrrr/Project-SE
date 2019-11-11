@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+    height: 10000px;
+    background: #F2F2F2;
+    margin: auto;
+    /*background: #ffffff;*/
+  }
+
+  /*body {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    background: #ffffff;
+    background-attachment: fixed;
+  }*/
+
+.App-footer {
+    background-color: #cfa7ae;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    box-shadow: 0 3px 3px rgba(57, 63, 72, 0.3);
+    
+   }
+
+.button-footer{
+    color: black;
+    text-decoration: none;
+    padding: 1% 39%;
+    
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    font-family: Superspace;
+    
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: justify;
+  }

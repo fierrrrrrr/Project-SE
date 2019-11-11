@@ -1,0 +1,202 @@
+/*.App {
+  text-align: center;
+  height: 10000px;
+  background: #F2F2F2;
+  margin: auto;
+}*/
+
+/*.body {
+  background-color: white;
+}*/
+
+  
+.table1-responsive {
+    /*text-align: center;*/
+    font-family: Superspace;
+    color: #3C3C3C;
+    position: relative;
+  }
+  
+  div.box00 {
+      background-color: white;
+      height: 1430px;
+      width: 100%;
+      display: block;
+      padding: 0px;
+      border: 0px solid blue; 
+      position: absolute;
+  }
+  
+  div.box1 {
+    background-color: #FFF8F9;
+    height: 300px;
+    width: 100%;
+    display: block;
+    padding: 0px;
+    border: 0px solid blue; 
+  }
+  
+  .fas {
+    margin: 140px;
+    font-size: 140px;
+    color: #E3E3E3;
+    position: absolute;
+    top: 0px; left: 10px;
+  }
+  
+  p.user {
+    font-family: Superspace;
+    font-size: 35px;
+    position: absolute;
+    padding: 165px;
+    margin-left: 190px;
+  
+    }
+  
+    .button3u5 {
+      padding: 5px 35px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      position: absolute;
+    }
+  
+    .button4u5 {
+      background-color: #F7A8B4;
+      border: none;
+      color: white;
+      font-size: 15px;
+      margin-top: 220px;
+      margin-left: 355px;
+      border-radius: 30px;
+      box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+    }
+    .button4u5:hover {
+      background-color: #F68D9D;
+    }
+  
+    .button5u5 {
+      background-color: #A2CDBE;
+      border: none;
+      color: white;
+      font-size: 15px;
+      margin-top: 220px;
+      margin-left: 530px;
+      border-radius: 30px;
+      box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+    }
+    .button5u5:hover {
+      background-color: #7DCFB2;
+    }
+  
+    .button6u5 {
+      background-color: #EAEAEA;
+      color: #4A4A4A;
+      font-size: 19px;
+      margin-top: 210px;
+      margin-left: 1350px;
+      border-radius: 10px;
+      border: 1px solid #707070;
+      box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+    }
+    .button6u5:hover {
+      background-color: #D0D0D0;
+    }
+  
+    .button7u5 {
+      background-color: #D0D0D0;
+      color: #4A4A4A;
+      font-size: 19px;
+      margin-top: 210px;
+      margin-left: 1550px;
+      border-radius: 10px;
+      border: 1px solid #707070;
+      box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+    }
+    /*.button7u5:hover {
+      background-color: #D0D0D0;
+    }*/
+  
+    
+
+    div.polaroid2u5 {
+        width: 1250px;
+        height: 219px;
+        background-color: #F4F4F4;
+        /*margin-bottom: 25px;*/
+        border-radius: 25px;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 320px;
+      }
+
+      div.polaroid3u5 {
+        width: 1250px;
+        height: 219px;
+        background-color: #F4F4F4;
+        /*margin-bottom: 25px;*/
+        border-radius: 25px;
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 320px;
+      }
+
+      div.polaroid4u5 {
+        width: 1250px;
+        height: 219px;
+        background-color: #F4F4F4;
+        /*margin-bottom: 25px;*/
+        border-radius: 25px;
+        position: absolute;
+        margin-top: 950px;
+        margin-left: 320px;
+      }
+    
+    div.containeru5 {
+      /*text-align: left;*/
+      padding: 20px 20px;
+      border-radius: 20px;
+      position: absolute;
+      top:0px; left:360px;
+    }
+    
+    .img3-responsive {
+    border-radius: 20px;
+    position: absolute;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+  
+  p.infor {
+    color: black;
+    font-size: 24px;
+    font-family: Superspace;
+  }
+    
+  /*.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 21.58%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  */

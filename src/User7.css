@@ -1,0 +1,232 @@
+/*.App {
+  text-align: center;
+  height: 10000px;
+  background: #F2F2F2;
+  margin: auto;
+}*/
+
+/*.body {
+  background-color: white;
+}*/
+
+  
+.table1-responsive {
+    /*text-align: center;*/
+    font-family: Superspace;
+    color: #3C3C3C;
+    position: relative;
+  }
+  
+  div.box0000 {
+      background-color: white;
+      height: 1200px;
+      width: 100%;
+      display: block;
+      padding: 0px;
+      border: 0px solid blue; 
+      position: absolute;
+  }
+  
+  div.box1 {
+    background-color: #FFF8F9;
+    height: 300px;
+    width: 100%;
+    display: block;
+    padding: 0px;
+    border: 0px solid blue; 
+  }
+  
+  .fas {
+    margin: 140px;
+    font-size: 140px;
+    color: #E3E3E3;
+    position: absolute;
+    top: 0px; left: 10px;
+  }
+  
+  p.user {
+    font-family: Superspace;
+    font-size: 35px;
+    position: absolute;
+    padding: 165px;
+    margin-left: 190px;
+  
+    }
+  
+    .button3u7 {
+      padding: 5px 35px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      position: absolute;
+    }
+  
+    .button4u7 {
+      background-color: #F68D9D;
+      border: none;
+      color: white;
+      font-size: 15px;
+      margin-top: 220px;
+      margin-left: 355px;
+      border-radius: 30px;
+      box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+    }
+    /*.button4u7:hover {
+      background-color: #F68D9D;
+    }*/
+  
+    .button5u7 {
+      background-color: #A2CDBE;
+      border: none;
+      color: white;
+      font-size: 15px;
+      margin-top: 220px;
+      margin-left: 530px;
+      border-radius: 30px;
+      box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+    }
+    .button5u7:hover {
+      background-color: #7DCFB2;
+    }
+  
+    .button6u7 {
+      background-color: #EAEAEA;
+      color: #4A4A4A;
+      font-size: 19px;
+      margin-top: 210px;
+      margin-left: 1350px;
+      border-radius: 10px;
+      border: 1px solid #707070;
+      box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+    }
+    .button6u7:hover {
+      background-color: #D0D0D0;
+    }
+  
+    .button7u7 {
+      background-color: #EAEAEA;
+      color: #4A4A4A;
+      font-size: 19px;
+      margin-top: 210px;
+      margin-left: 1550px;
+      border-radius: 10px;
+      border: 1px solid #707070;
+      box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+    }
+    .button7u7:hover {
+      background-color: #D0D0D0;
+    }
+
+    .button8u7 {
+      background-color: #A2CDBE;
+      color: white;
+      font-size: 19px;
+     /* margin-top: 210px;*/
+      margin-left: 860px;
+      border: 0px;
+      border-radius: 10px;
+      box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+    }
+    .button8u7:hover {
+      background-color: #88C1AD;
+    }
+
+    p.infor1 {
+      margin-top: 400px;
+      margin-bottom: 30px;
+      color: #575757;
+    }
+    p.infor11 {
+      margin-top:70px;
+      margin-bottom: 30px;
+    }
+  
+    label {
+      margin-top: 10px;
+      margin-left: 100px;
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+      color: #575757;
+    }
+
+    input.pass[type=password]{
+      width: 50%;
+      padding: 5px 5px 5px 0;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: 1px solid #575757;;
+      float:center;
+      color: #575757;
+      background-color: #FAEDED;
+    }
+
+    input.pass[type=password]{
+      width: 50%;
+      padding: 5px 5px 5px 0;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: 1px solid #575757;;
+      float:center;
+      color: #575757;
+      background-color: #FAEDED;
+    }
+
+    input.pass[type=password]{
+      width: 50%;
+      padding: 5px 5px 5px 0;
+      margin: 20px 0;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: 1px solid #575757;;
+      float:center;
+      color: #575757;
+      background-color: #FAEDED;
+    }
+    
+    .tableinfor0 {
+      border-collapse: collapse;
+      width: 45%;
+      /*border: 1px solid black;*/
+    }
+
+    .tableinfor1 {
+      border-collapse: collapse;
+      width:35%;
+      /*border: 1px solid black;*/
+      margin-left: 550px;
+    }
+    
+    th {
+      height: 50px;
+     /* border: 1px solid black;*/
+    }
+   
+    
+  /*.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 21.58%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  */
