@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Header from './Header';
+
 import Footer from './Footer';
 import User from './User';
 import User1 from './User1';
@@ -12,6 +12,7 @@ import User4 from './User4';
 import User5 from './User5';
 import User6 from './User6';
 import User7 from './User7';
+import Adheader from './Adheader';
 
 //import * as serviceWorker from './serviceWorker';
 import {Router,Route,Link,browserHistory} from 'react-router'
@@ -19,7 +20,6 @@ import {Router,Route,Link,browserHistory} from 'react-router'
 ReactDOM.render(
     <Router history={browserHistory}>
     <Route path="/" component={App}/>
-    <Route path="/Header" component={Header}/>
     <Route path="/Footer" component={Footer}/>
     <Route path="/User" component={User}/>
     <Route path="/User1" component={User1}/>
@@ -29,6 +29,7 @@ ReactDOM.render(
     <Route path="/User5" component={User5}/>
     <Route path="/User6" component={User6}/>
     <Route path="/User7" component={User7}/>
+    <Route path="/Adheader" component={Adheader}/>
   
     </Router>,document.getElementById('root')
 );

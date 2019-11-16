@@ -4,11 +4,11 @@
   color:white;
 }
 
-.App {
+/*.App {
   text-align: center;
   font-family: Superspace;
   color:white;
-}
+}*/
 
 body {
   padding:0px;
@@ -52,7 +52,7 @@ p.Superspace {
   padding: 0px;
   border: 0px solid red;
   position:absolute;
-  top:90px; left:530px;
+  top:50px; left:530px;
   margin-top: 100px;
 }
 
@@ -101,16 +101,16 @@ a:hover {
   color: #8BD1B8;
 }
 
-.button {
+.buttonlogin {
   background-color: #A2CDBE; /* Green */
   font-family: Superspace;
   border: none;
   color: white;
-  padding: 12px 70px;
+  padding: 10px 60px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 35px;
+  font-size: 30px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 30px;

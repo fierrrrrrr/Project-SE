@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import './User1.css';
-//import Header from './Header';
 import Footer from './Footer';
+import Adheader from './Adheader';
 
 
 
@@ -10,10 +10,12 @@ class User1 extends Component {
   return (
     
     <div className="table1-responsive" >
+
      <div class="responsive">
+
       <div class="box0">
         <div class="box1">
-
+       
           <i class="fas fa-user-circle" ></i>
           <p class="user"><b>Username</b></p>
           
@@ -28,14 +30,25 @@ class User1 extends Component {
           <button class="button3u1 button11u1"><b>ไม่ผ่านการตรวจสอบ</b></button>
           <button class="button3u1 button12u1"><b>ออฟไลน์</b></button>
           </table>
+          
+          
+            <div class="containeru1000">
+              <center>
+              <img src={require('./assets/9.png')} class="img2-responsive" style={{width: 220}} />
+     
+            </center>
+            </div>
+          
+            <div class="containeru10000">
+              <center>
+            
+            <h2 class="conu1"><b>คุณยังไม่มีรายการประกาศ&emsp;&emsp;</b></h2>
+            </center>
+            </div>
 
-          <center>
-          <img src={require('./assets/9.png')} class="img2-responsive" style={{width: 239}} />
-          <br/><br/>
-          <h2><b>คุณยังไม่มีรายการประกาศ&emsp;&emsp;</b></h2>
-          </center>
-
+        <Adheader/>
           <Footer/>
+         
         </div>
       </div>
      </div>

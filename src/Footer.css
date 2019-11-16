@@ -1,10 +1,10 @@
-.App {
+/*.App {
     text-align: center;
     height: 10000px;
     background: #F2F2F2;
     margin: auto;
-    /*background: #ffffff;*/
-  }
+  
+  }*/
 
   /*body {
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   }*/
 
 .App-footer {
-    background-color: #cfa7ae;
+    background-color: #e3cdd1;
     position: absolute;
     left: 0;
     bottom: 0;

@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import './User5.css';
-//import Header from './Header';
+import Adheader from './Adheader';
 import Footer from './Footer';
 
 
@@ -25,30 +25,31 @@ class User5 extends Component {
           <button class="button3u5 button7u5"><b>ประกาศที่ดูล่าสุด</b></button>
           </table>
 
-          <div class="polaroid2u5">
+          <a href ="#"><div class="polaroid2u5">
             <img src={require('./assets/10.png')} class="img3-responsive" style={{width: 300}} />
             <div class="containeru5">
               <p class="infor"><b>น้องแมวน่ารัก</b></p>
               <p class="infor"><b>จ.กรุงเทพฯ</b></p>
             </div>
-          </div>
+          </div></a>
 
-          <div class="polaroid3u5">
+          <a href ="#"> <div class="polaroid3u5">
             <img src={require('./assets/11.png')} class="img3-responsive" style={{width: 300}} />
             <div class="containeru5">
               <p class="infor"><b>น้องแมวน่ารัก</b></p>
               <p class="infor"><b>จ.กรุงเทพฯ</b></p>
             </div>
-          </div>
+          </div></a>
 
-          <div class="polaroid4u5">
+          <a href ="#"> <div class="polaroid4u5">
             <img src={require('./assets/12.png')} class="img3-responsive" style={{width: 300}} />
             <div class="containeru5">
               <p class="infor"><b>น้องแมวน่ารัก</b></p>
               <p class="infor"><b>จ.กรุงเทพฯ</b></p>
             </div>
-          </div>
+          </div></a>
       
+          <Adheader/>
           <Footer/>
         </div>
       </div>

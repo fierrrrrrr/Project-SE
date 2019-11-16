@@ -24,7 +24,7 @@ class App extends Component {
           <a href ="#"><b><p align="right">ลืมรหัสผ่าน </p></b></a>
 
           <br/><br/>
-          <button class="button"><b>เข้าสู่ระบบ</b></button>
+          <button class="buttonlogin"><b>เข้าสู่ระบบ</b></button>
 
           <br/>
           <p1><b>ยังไม่เป็นสมาชิกใช่ไหม&nbsp;</b><a href ="#"><b>ลงทะเบียน</b></a></p1>

@@ -1,9 +1,4 @@
-/*.App {
-  text-align: center;
-  height: 10000px;
-  background: #F2F2F2;
-  margin: auto;
-}*/
+
 
 /*.body {
   background-color: white;
@@ -19,7 +14,7 @@
 
 div.box {
     background-color: white;
-    height: 1270px;
+    height: 1330px;
     width: 100%;
     display: block;
     padding: 0px;
@@ -60,6 +55,7 @@ p.user {
     display: inline-block;
     cursor: pointer;
     position: absolute;
+    font-family: Superspace;
   }
 
   .button4u {
@@ -67,7 +63,7 @@ p.user {
     border: none;
     color: white;
     font-size: 15px;
-    margin-top: 220px;
+    margin-top: 250px;
     margin-left: 355px;
     border-radius: 30px;
     box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
@@ -81,7 +77,7 @@ p.user {
     border: none;
     color: white;
     font-size: 15px;
-    margin-top: 220px;
+    margin-top: 250px;
     margin-left: 530px;
     border-radius: 30px;
     box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
@@ -94,7 +90,7 @@ p.user {
     background-color: #D0D0D0;
     color: #4A4A4A;
     font-size: 19px;
-    margin-top: 210px;
+    margin-top: 240px;
     margin-left: 1350px;
     border-radius: 10px;
     border: 1px solid #707070;
@@ -108,7 +104,7 @@ p.user {
     background-color: #EAEAEA;
     color: #4A4A4A;
     font-size: 19px;
-    margin-top: 210px;
+    margin-top: 240px;
     margin-left: 1550px;
     border-radius: 10px;
     border: 1px solid #707070;

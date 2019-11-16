@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import './User.css';
-//import Header from './Header';
+import Adheader from './Adheader';
 import Footer from './Footer';
 
 
@@ -10,7 +10,9 @@ class User extends Component {
   return (
     
     <div className="table1-responsive" >
+     
      <div class="responsive">
+  
       <div class="box">
         <div class="box1">
 
@@ -29,22 +31,23 @@ class User extends Component {
           <button class="button3u button12u"><b>ออฟไลน์</b></button>
           </table>
 
-          <div class="polaroid">
+          <a href ="#"><div class="polaroid">
             <img src={require('./assets/7.png')} class="img1-responsive" style={{width: 300}} />
             <div class="container">
               <p class="infor"><b>น้องแมวน่ารัก</b></p>
               <p class="infor"><b>จ.กรุงเทพฯ</b></p>
             </div>
-          </div>
+          </div></a>
 
-          <div class="polaroid1">
-            <img src={require('./assets/8.png')} class="img1-responsive" style={{width: 300}} />
+          <a href ="#"><div class="polaroid1">
+          <img src={require('./assets/8.png')} class="img1-responsive" style={{width: 300}} />
             <div class="container">
               <p class="infor"><b>น้องแมวน่ารัก</b></p>
               <p class="infor"><b>จ.กรุงเทพฯ</b></p>
             </div>
-          </div>
+          </div></a>
       
+          <Adheader/>
           <Footer/>
         </div>
       </div>

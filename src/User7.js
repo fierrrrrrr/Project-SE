@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import './User7.css';
-//import Header from './Header';
+import Adheader from './Adheader';
 import Footer from './Footer';
 
 
@@ -24,9 +24,11 @@ class User7 extends Component {
           <button class="button3u7 button7u7"><b>ประกาศที่ดูล่าสุด</b></button>
           </table>
 
+          <div class="containeru7000">
+
           <table class="tableinfor0">
           <tr>
-            <td><p class="infor1"><b><font size="5" ><u>แก้ไขรหัสผ่าน</u></font></b></p></td>
+            <td><p class="infor11"><b><font size="5" ><u>แก้ไขรหัสผ่าน</u></font></b></p></td>
           </tr>
           </table>
 
@@ -51,12 +53,12 @@ class User7 extends Component {
           </table>
        
        
-          <br/><br/><br/>
+          <br/><br/><br/><br/>
       
           <button class="button3u7 button8u7"><b>บันทึก</b></button>
        
-
-
+          </div>
+          <Adheader/>
           <Footer/>
         </div>
         </div>

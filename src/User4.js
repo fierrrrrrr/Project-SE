@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import './User4.css';
-//import Header from './Header';
+import Adheader from './Adheader';
 import Footer from './Footer';
 
 
@@ -29,12 +29,21 @@ class User4 extends Component {
           <button class="button3u4 button12u4"><b>ออฟไลน์</b></button>
           </table>
 
-          <center>
-          <img src={require('./assets/9.png')} class="img2-responsive" style={{width: 239}} />
-          <br/><br/>
-          <h2><b>คุณยังไม่มีรายการประกาศ&emsp;&emsp;</b></h2>
-          </center>
+          <div class="containeru4000">
+              <center>
+              <img src={require('./assets/9.png')} class="img2-responsive" style={{width: 220}} />
+     
+            </center>
+            </div>
+          
+            <div class="containeru40000">
+              <center>
+            
+            <h2 class="conu4"><b>คุณยังไม่มีรายการประกาศ&emsp;&emsp;</b></h2>
+            </center>
+            </div>
 
+          <Adheader/>
           <Footer/>
         </div>
       </div>
