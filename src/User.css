@@ -31,7 +31,7 @@ div.box1 {
   border: 0px solid blue; 
 }
 
-.fas {
+.g fas {
   margin: 140px;
   font-size: 140px;
   color: #E3E3E3;
@@ -185,7 +185,7 @@ p.user {
   }
 
   div.polaroid {
-    width: 1250px;
+    width: 65%;
     height: 219px;
     background-color: #F4F4F4;
     /*margin-bottom: 25px;*/
@@ -196,7 +196,7 @@ p.user {
   }
 
   div.polaroid1 {
-    width: 1250px;
+    width: 65%;
     height: 219px;
     background-color: #F4F4F4;
     /*margin-bottom: 25px;*/

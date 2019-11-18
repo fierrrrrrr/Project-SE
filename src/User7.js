@@ -18,10 +18,10 @@ class User7 extends Component {
           <p class="user"><b>Username</b></p>
           
           <table className="buttonn" >
-          <button class="button3u7 button4u7"><b>แก้ไขข้อมูล</b></button>
-          <button class="button3u7 button5u7"><b>แก้ไขรหัสผ่าน</b></button>
-          <button class="button3u7 button6u7"><b>ประกาศของฉัน</b></button>
-          <button class="button3u7 button7u7"><b>ประกาศที่ดูล่าสุด</b></button>
+          <button class="button3u6 button4u6"><b>แก้ไขข้อมูล</b></button>
+          <button class="button3u6 button5u6"><b>แก้ไขรหัสผ่าน</b></button>
+          <button class="button3u6 button6u6"><b>ประกาศของฉัน</b></button>
+          <button class="button3u6 button7u6"><b>ประกาศที่ดูล่าสุด</b></button>
           </table>
 
           <div class="containeru7000">

@@ -14,7 +14,7 @@ class User2 extends Component {
       <div class="box0">
         <div class="box1">
 
-          <i class="fas fa-user-circle" ></i>
+          <i class="g fas fa-user-circle" ></i>
           <p class="user"><b>Username</b></p>
           
           <table className="buttonn" >

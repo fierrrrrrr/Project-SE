@@ -36,7 +36,7 @@
     border: 0px solid blue; 
   }
   
-  .fas {
+  .g fas {
     margin: 140px;
     font-size: 140px;
     color: #E3E3E3;
@@ -215,6 +215,7 @@
       }
       h2.conu3 {
         width: 300px;
+          font-size: 25px;
        /* padding: 10px 10px;*/
         border-radius: 20px;
         position: absolute;

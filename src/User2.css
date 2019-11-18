@@ -43,7 +43,7 @@
     border: 0px solid blue; 
   }
   
-  .fas {
+  .g fas {
     margin: 140px;
     font-size: 140px;
     color: #E3E3E3;
@@ -221,6 +221,7 @@
       }
       h2.conu2 {
         width: 300px;
+          font-size: 25px;
        /* padding: 10px 10px;*/
         border-radius: 20px;
         position: absolute;
@@ -229,28 +230,3 @@
         /*top:-280px; left:320px;*/
        /* border: 1px solid black;*/
       }
-  /*.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 21.58%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  */

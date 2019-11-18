@@ -36,7 +36,7 @@
     border: 0px solid blue; 
   }
   
-  .fas {
+  .g fas {
     margin: 140px;
     font-size: 140px;
     color: #E3E3E3;
@@ -122,7 +122,7 @@
     
 
     div.polaroid2u5 {
-        width: 1250px;
+        width: 65%;
         height: 219px;
         background-color: #F4F4F4;
         /*margin-bottom: 25px;*/
@@ -133,7 +133,7 @@
       }
 
       div.polaroid3u5 {
-        width: 1250px;
+        width: 65%;
         height: 219px;
         background-color: #F4F4F4;
         /*margin-bottom: 25px;*/
@@ -144,7 +144,7 @@
       }
 
       div.polaroid4u5 {
-        width: 1250px;
+        width: 65%;
         height: 219px;
         background-color: #F4F4F4;
         /*margin-bottom: 25px;*/
