@@ -2,16 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
 import Footer from './Footer';
-import User from './User';
-import User1 from './User1';
-import User2 from './User2';
-import User3 from './User3';
-import User4 from './User4';
-import User5 from './User5';
-import User6 from './User6';
-import User7 from './User7';
+import UserOnline from './UserOnline';
+import UserCheck from './UserCheck';
+import UserEdit from './UserEdit';
+import UserFailcheck from './UserFailcheck';
+import UserOffline from './UserOffline';
+import UserLatest from './UserLatest';
+import UserInfor from './UserInfor';
+import UserPassword from './UserPassword';
 import Adheader from './Adheader';
 
 
@@ -22,14 +21,14 @@ ReactDOM.render(
     <Router history={browserHistory}>
     <Route path="/" component={App}/>
     <Route path="/Footer" component={Footer}/>
-    <Route path="/User" component={User}/>
-    <Route path="/User1" component={User1}/>
-    <Route path="/User2" component={User2}/>
-    <Route path="/User3" component={User3}/>
-    <Route path="/User4" component={User4}/>
-    <Route path="/User5" component={User5}/>
-    <Route path="/User6" component={User6}/>
-    <Route path="/User7" component={User7}/>
+    <Route path="/UserOnline" component={UserOnline}/>
+    <Route path="/UserCheck" component={UserCheck}/>
+    <Route path="/UserEdit" component={UserEdit}/>
+    <Route path="/UserFailcheck" component={UserFailcheck}/>
+    <Route path="/UserOffline" component={UserOffline}/>
+    <Route path="/UserLatest" component={UserLatest}/>
+    <Route path="/UserInfor" component={UserInfor}/>
+    <Route path="/UserPassword" component={UserPassword}/>
     <Route path="/Adheader" component={Adheader}/>
   
     </Router>,document.getElementById('root')

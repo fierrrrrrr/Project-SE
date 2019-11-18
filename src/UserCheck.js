@@ -1,0 +1,60 @@
+import React,{ Component } from 'react';
+import './UserCheck.css';
+import Footer from './Footer';
+import Adheader from './Adheader';
+
+
+
+class UserCheck extends Component {
+  render(){
+  return (
+    
+    <div className="table1-responsive" >
+
+     <div class="responsive">
+
+      <div class="box0">
+        <div class="box1">
+       
+          <i class="g fas fa-user-circle" ></i>
+          <p class="user"><b>Username</b></p>
+          
+          <table className="buttonn" >
+          <button class="button3u1 button4u1"><b>แก้ไขข้อมูล</b></button>
+          <button class="button3u1 button5u1"><b>แก้ไขรหัสผ่าน</b></button>
+          <button class="button3u1 button6u1"><b>ประกาศของฉัน</b></button>
+          <button class="button3u1 button7u1"><b>ประกาศที่ดูล่าสุด</b></button>
+          <button class="button3u1 button8u1"><b>ออนไลน์</b></button>
+          <button class="button3u1 button9u1"><b>รอตรวจสอบ</b></button>
+          <button class="button3u1 button10u1"><b>รอแก้ไข</b></button>
+          <button class="button3u1 button11u1"><b>ไม่ผ่านการตรวจสอบ</b></button>
+          <button class="button3u1 button12u1"><b>ออฟไลน์</b></button>
+          </table>
+          
+          
+            <div class="containeru1000">
+              <center>
+              <img src={require('./assets/9.png')} class="img2-responsive" style={{width: 220}} />
+     
+            </center>
+            </div>
+          
+            <div class="containeru10000">
+              <center>
+            
+            <h2 class="conu1"><b>คุณยังไม่มีรายการประกาศ&emsp;&emsp;</b></h2>
+            </center>
+            </div>
+
+        <Adheader/>
+          <Footer/>
+         
+        </div>
+      </div>
+     </div>
+    </div>
+  );
+  }
+}
+
+export default UserCheck;
