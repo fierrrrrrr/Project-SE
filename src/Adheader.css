@@ -19,11 +19,12 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 1% 3%;
+    margin: 2% 3%;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
     padding: 6% 15%;
+   
   }
   .adbutton1{
     color: white;
@@ -100,11 +101,10 @@
   }
   .adApp-logo{
     position: fixed;
-    padding: 0px;
-    margin: -1.25% 7%;
+    margin: -1.5% 7%;
+    padding:0px;
     float: left;
-    height: 12%;
-
+    height: 15%;
   }
 
   .dropbtn {
@@ -130,4 +130,33 @@
 
   .divider {
     border: 0.2px solid rgb(187, 173, 173);
+  }
+
+  .adimg-circle{ 
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .userB1{
+    background-image: url(./userB1.png);
+  }
+
+  .userB2{
+    background-image: url(./userB2.png);
+  }
+
+  .userB3{
+    background-image: url(./userB3.png);
+  }
+
+  .userB4{
+    background-image: url(./userB4.png);
+  }
+
+  .lass {
+    float: center;
+    margin: 1px 22px;
+    font-size: 14px;
   }
